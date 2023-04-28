@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #0A4D68;
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: #A5C0DD;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #input {
+    display: block;
+    margin: auto;
+  }
+  
+  #submit {
+    display: block;
+    margin: 20px auto 0;
+  }
+  
