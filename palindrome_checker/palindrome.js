@@ -5,6 +5,9 @@ function palindrome_checker()
 
    for(let i=0;i<parseInt(length/2);i++)
    {
-    
+    if(num[i]==num[length-i])
+    {
+        
+    }
    }
 }
