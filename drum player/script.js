@@ -1,8 +1,20 @@
-document.addEventListener("keydown", key_sound)
+window.addEventListener("keydown", (e)=>{
+        let keyPressed=document.querySelector(".key[data-ascii='"+e.keyCode+"']");
+        let soundName=keyPressed.querySelector("span").innerText;
+        let sound=document.createElement("audio");
 
-function key_sound(e)
-{
-    let keypressed=document.querySelector(`.key[data-key=`${e.keyCode}`]`);
-    let soundname=keypressed.querySelector("span");
-    
-}
+        sound.setAttribute("src",`./sounds/${soundName}.wav`);
+        sound.play();
+    }
+)
+
+// function key_sound(e)
+// {
+//     let keyPressed=document.querySelector(".key[data-ascii='"+e.keyCode+"']");
+//     let soundName=keyPressed.querySelector("span").innerText;
+//     let sound=document.createElement("audio");
+//
+//     sound.setAttribute("src",`./sounds/${soundName}.wav`);
+//     sound.play();
+// }
+
