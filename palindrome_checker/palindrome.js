@@ -1,13 +1,26 @@
 function palindrome_checker()
 {
-    let num=Integer.toString(document.getElementById("input").value);
-   let length=num.length;
+    let num=document.getElementById("input").value
+    let rev_num=reverseString(num);
 
-   for(let i=0;i<parseInt(length/2);i++)
-   {
-    if(num[i]==num[length-i])
+    if(num===rev_num)
     {
-        
+        console.log("Is a palindrome");
     }
-   }
+
+    else
+    {
+        console.log("Not a palindrome");
+    }
+}
+
+let reverseString=(str)=>
+{
+    let rev_str='';
+    for(let i=(str.length-1);i>=0;i--)
+    {
+        rev_str+=str[i];
+    }
+
+    return rev_str;
 }
