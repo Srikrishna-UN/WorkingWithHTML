@@ -1,9 +1,8 @@
 function palindrome_checker()
 {
     let num=document.getElementById("input").value
-    let rev_num=reverseString(num);
 
-    if(num===rev_num)
+    if(num===reverseString(num))
     {
         console.log("Is a palindrome");
     }
