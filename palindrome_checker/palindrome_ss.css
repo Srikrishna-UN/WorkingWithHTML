@@ -1,0 +1,22 @@
+/*@import url('https://fonts.googleapis.com/css?family=ArchitectsDaughterand&display=swap');*/
+
+*
+{
+    background-color: lightgoldenrodyellow;
+}
+
+.input{
+    background: aliceblue;
+    color: azure;
+}
+
+.content
+{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+#heading
+{
+    font-family: Bahnschrift;
+}
