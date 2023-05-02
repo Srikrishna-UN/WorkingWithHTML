@@ -1,15 +1,17 @@
 function palindrome_checker()
 {
     let num=document.getElementById("input").value
-
+    let display=document.getElementById("display");
     if(num===reverseString(num))
     {
-        console.log("Is a palindrome");
+        display.style.color="palegreen";
+        display.innerHTML=`<h2> Palindrome </h2>`;
     }
 
     else
     {
-        console.log("Not a palindrome");
+        display.style.color="red";
+        display.innerHTML=`<h2> !(Palindrome) </h2>`
     }
 }
 

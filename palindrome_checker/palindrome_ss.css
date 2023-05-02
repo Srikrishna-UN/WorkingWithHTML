@@ -1,22 +1,38 @@
 /*@import url('https://fonts.googleapis.com/css?family=ArchitectsDaughterand&display=swap');*/
 
-*
-{
-    background-color: lightgoldenrodyellow;
+
+body{
+    background-color: darkkhaki;
 }
 
-.input{
-    background: aliceblue;
-    color: azure;
+.container{
+    width: 300px;
+    padding: 10px;
+    color: white;
+
 }
 
-.content
-{
-    margin-top: 10%;
-    margin-left: 40%;
+.content{
+    background-color: white;
+    color: rosybrown;
+    width: 350px;
+    height: auto;
+    margin: 20vh auto 0 auto;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-#heading
-{
-    font-family: Bahnschrift;
+#heading{
+    margin-left: 5%;
+    justify-items: center;
+    align-items: center;
+}
+
+#input{
+    margin-left: 26%;
+}
+
+#display{
+    font-family: "Lucida Sans";
+    margin-left: 29%;
 }
